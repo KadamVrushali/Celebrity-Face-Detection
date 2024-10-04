@@ -30,8 +30,9 @@ Model
 Web Scrapping
 ├── downloading_images.py       # Script for training the CNN model
 └── README.md                   # Project documentation
+```
 
-📂 Workflow
+## 📂 Workflow
 Web Scraping: Use downloading_images.py to scrape images of celebrities from the web.
 Data Cleaning: Run data_cleaning.py to convert images to grayscale and crop them based on detected eyes.
 Data Augmentation: Execute augment_dataset.py to apply various augmentations to the images for enhancing the dataset.
@@ -40,8 +41,9 @@ Handle Class Imbalance: Use handle_ClassImbalance.py to apply SMOTE and create a
 Split Data: Split the dataset into training and testing sets using split_data.py.
 Train Model: Train the CNN model using train_model.py and save the model.
 
-📈 Model Performance
+## 📈 Model Performance
 After training the model, we achieved a test accuracy of 80.45%. This indicates a strong ability to classify celebrity faces accurately.
+```plaintext
 Classification Report:
               precision    recall  f1-score   support
 
@@ -57,3 +59,4 @@ ArianaGrande       0.90      0.72      0.80        39
     accuracy                           0.80       312
    macro avg       0.81      0.80      0.80       312
 weighted avg       0.81      0.80      0.80       312
+```
