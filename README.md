@@ -47,6 +47,9 @@ Split Data: Split the dataset into training and testing sets using split_data.py
 
 Train Model: Train the CNN model using train_model.py and save the model.
 
+## 🌐 Web Scraping from Google
+`chromedriver-win64` is essential for web scraping as it automates the Google Chrome browser, enabling easy retrieval of data from web pages. To use it, download the appropriate version, add it to your system's PATH, and run your Selenium scripts to start scraping!
+
 ## 📈 Model Performance
 After training the model, we achieved a test accuracy of 80.45%. This indicates a strong ability to classify celebrity faces accurately.
 ```plaintext
