@@ -7,6 +7,7 @@ Welcome to the **Celebrity Face Detection** project! This repository contains a 
 - [💻 File Structure](#-file-structure)
 - [🛠 Installation](#-installation)
 - [📂 Workflow](#-workflow)
+- [🌐 Web Scraping](#-web-scraping)
 - [📈 Model Performance](#-model-performance)
 
 ## 🔍 Overview
