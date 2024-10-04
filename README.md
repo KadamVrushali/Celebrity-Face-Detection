@@ -34,11 +34,17 @@ Web Scrapping
 
 ## 📂 Workflow
 Web Scraping: Use downloading_images.py to scrape images of celebrities from the web.
+
 Data Cleaning: Run data_cleaning.py to convert images to grayscale and crop them based on detected eyes.
+
 Data Augmentation: Execute augment_dataset.py to apply various augmentations to the images for enhancing the dataset.
+
 Exploratory Data Analysis: Perform EDA in eda.py to understand the dataset and identify class imbalances.
+
 Handle Class Imbalance: Use handle_ClassImbalance.py to apply SMOTE and create a balanced dataset.
+
 Split Data: Split the dataset into training and testing sets using split_data.py.
+
 Train Model: Train the CNN model using train_model.py and save the model.
 
 ## 📈 Model Performance
